@@ -184,6 +184,10 @@ $Ailuren-scriptwriter-3act-15beats
 └── examples/                        # 所有案例文本
 ```
 
+## License
+
+本项目由 @Ai路人 创建与维护。
+
 ## 验证
 
 README 的图片、SVG 和替代文本可用以下命令检查：
