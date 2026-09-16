@@ -7,7 +7,8 @@
 ## Directory conventions
 
 - `SKILL.md`：skill 的触发规则、创作流程与输出边界。
-- `references/`：创作时读取的节拍定义与输出模板。
+- `references/`：创作时按任务读取的节拍定义、新手模式、品牌资料清单、输出模板与故事 / 完播审核规则。
+- `docs/`：面向新用户的安装、调用、理解输出与多轮修改教程。
 - `assets/readme/`：只存 README 首屏等通用视觉资产。
 - `assets/examples/`：集中存放案例结构图与分镜图。
 - `examples/`：集中存放所有示例剧本文本；README 目前只展示《雨夜救猫》这一案例。
