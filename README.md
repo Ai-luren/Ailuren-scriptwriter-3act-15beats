@@ -10,17 +10,28 @@
 
 > 默认方法：三幕式（建立 → 对抗 → 解决） + Save the Cat 15 Beats + 场景级剧情大纲
 
-## 先看真实输出
+## 真实输出： 《雨夜救猫》
 
-这些不是占位图，而是本 skill 已经用于生成的结构与分镜示例。所有画面都来自仓库里的完整 Markdown 案例。
+只展示一个完整案例，方便从文本一路看到结构和视觉结果。
+
+### 文本
+
+完整故事文本：[`examples/雨夜救猫.md`](./examples/雨夜救猫.md)
+
+> 一个习惯独来独往、怕麻烦的外卖骑手，在暴雨夜听见旧楼天台传来小猫的求救声。为了救下一只被困在水塔边缘的橘猫，他不得不走进停电的旧楼、接受陌生人的帮助，并在一次看似微小的救援中重新学会相信人与人之间的连接。
+
+**核心主题：** 愿意伸手帮助别人，也是在重新接住自己。
+
+### 三幕式结构图
 
 <p align="center">
-  <img src="./记忆之光-三幕式-结构.png" width="49%" alt="记忆之光的三幕式结构图">
-  <img src="./雨夜救猫-15beats-分镜.png" width="49%" alt="雨夜救猫的 15 Beats 分镜图">
+  <img src="./assets/examples/雨夜救猫-三幕式-结构.png" width="100%" alt="雨夜救猫的三幕式结构图：建立、对抗、解决">
 </p>
+
+### 15 Beats 分镜图
+
 <p align="center">
-  <img src="./轻薄笔记本TVC-三幕式-结构.png" width="49%" alt="轻薄笔记本 TVC 的三幕式广告结构图">
-  <img src="./记忆之光-15beats-分镜.png" width="49%" alt="记忆之光的 15 Beats 分镜图">
+  <img src="./assets/examples/雨夜救猫-15beats-分镜.png" width="100%" alt="雨夜救猫的 15 Beats 分镜图，从开场画面推进到救出小猫的结尾">
 </p>
 
 ## 它解决什么问题
@@ -145,15 +156,13 @@ $Ailuren-scriptwriter-3act-15beats
 
 更完整的操作说明见 [`docs/getting-started.md`](./docs/getting-started.md)。
 
-## 示例目录
+## 完整案例
 
 | 示例 | 适合观察的部分 | 文件 |
 | --- | --- | --- |
-| 《雨夜救猫》 | 小人物弧光、B 故事、15 Beats 到分镜 | [`雨夜救猫.md`](./雨夜救猫.md) |
-| 《记忆之光》 | 情绪主题、关系线、寻找行动的层层升级 | [`记忆之光.md`](./记忆之光.md) |
-| 《轻装上场》 | 60 秒 TVC、产品卖点与三幕式广告节奏 | [`轻薄笔记本TVC.md`](./轻薄笔记本TVC.md) |
+| 《雨夜救猫》 | 小人物弧光、B 故事、15 Beats 到分镜 | [`examples/雨夜救猫.md`](./examples/雨夜救猫.md) |
 
-每个案例还配有三幕式结构图或 15 Beats 分镜图，方便从文字结构继续进入视觉开发。
+图片统一放在 [`assets/examples/`](./assets/examples/)；README 只展示这个案例，避免多个案例抢夺阅读焦点。
 
 ## 创作边界
 
@@ -171,9 +180,8 @@ $Ailuren-scriptwriter-3act-15beats
 │   ├── beat-sheet.md                # 15 Beats 定义与时长压缩
 │   └── output-template.md           # 默认交付模板
 ├── assets/readme/hero.svg           # README 首屏视觉
-├── 雨夜救猫.md                      # 故事案例
-├── 记忆之光.md                      # 故事案例
-└── 轻薄笔记本TVC.md                 # TVC 案例
+├── assets/examples/                 # 案例结构图与分镜图
+└── examples/                        # 所有案例文本
 ```
 
 ## 验证

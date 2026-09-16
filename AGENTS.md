@@ -8,8 +8,9 @@
 
 - `SKILL.md`：skill 的触发规则、创作流程与输出边界。
 - `references/`：创作时读取的节拍定义与输出模板。
-- `assets/readme/`：只存 README 展示所需的静态视觉资产。
-- 根目录中文 `.md` 与 `.png`：真实示例剧本及其结构/分镜输出。
+- `assets/readme/`：只存 README 首屏等通用视觉资产。
+- `assets/examples/`：集中存放案例结构图与分镜图。
+- `examples/`：集中存放所有示例剧本文本；README 目前只展示《雨夜救猫》这一案例。
 
 ## Naming
 
