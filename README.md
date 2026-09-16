@@ -101,7 +101,23 @@ $Ailuren-scriptwriter-3act-15beats
 
 ## 不会用？照着这 4 步开始
 
-### 第 1 步：安装
+### 第 1 步：Codex 一键安装（推荐）
+
+在新的 Codex 对话中，复制下面整段并发送。`skill-installer` 会从公开 GitHub 仓库读取根目录的 `SKILL.md` 和 `references/`：
+
+```text
+$skill-installer
+
+请从这个公开 GitHub 仓库安装 Codex skill：
+https://github.com/Ai-luren/Ailuren-scriptwriter-3act-15beats
+
+请安装仓库根目录的 skill，安装名使用：Ailuren-scriptwriter-3act-15beats
+安装完成后告诉我安装路径。
+```
+
+安装完成后，在新的 Codex 对话中输入 `$Ailuren-scriptwriter-3act-15beats` 即可调用。
+
+### 手动安装（备用）
 
 把仓库里的 `SKILL.md` 和 `references/` 文件夹复制到 Codex 的 skills 目录：
 
@@ -110,8 +126,6 @@ mkdir -p ~/.codex/skills/Ailuren-scriptwriter-3act-15beats/references
 cp SKILL.md ~/.codex/skills/Ailuren-scriptwriter-3act-15beats/
 cp references/*.md ~/.codex/skills/Ailuren-scriptwriter-3act-15beats/references/
 ```
-
-安装完成后，在新的 Codex 对话中输入 `$Ailuren-scriptwriter-3act-15beats` 即可调用。
 
 ### 第 2 步：不会写提示词，就先填 4 个空
 

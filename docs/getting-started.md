@@ -2,7 +2,31 @@
 
 这个 skill 不是让你填写复杂表格，而是把你已经有的零散想法整理成能继续拍摄或写作的结构。你可以从一句话、一张画面，甚至一个结局开始。
 
-## 1. 安装 skill
+## 1. Codex 一键安装（推荐）
+
+在新的 Codex 对话中，复制并发送下面这段。这里调用的是 Codex 自带的 `skill-installer`，它会从公开 GitHub 仓库读取根目录的 `SKILL.md` 和 `references/`，并安装到 Codex 的 skills 目录：
+
+```text
+$skill-installer
+
+请从这个公开 GitHub 仓库安装 Codex skill：
+https://github.com/Ai-luren/Ailuren-scriptwriter-3act-15beats
+
+请安装仓库根目录的 skill，安装名使用：Ailuren-scriptwriter-3act-15beats
+安装完成后告诉我安装路径。
+```
+
+安装器完成后，重新开一个 Codex 对话，输入下面这句测试：
+
+```text
+$Ailuren-scriptwriter-3act-15beats
+
+我想写一个关于“重新相信别人”的 3 分钟短片，请先输出故事核心和人物弧光。
+```
+
+> 如果当前 Codex 会话没有识别到新 skill，重新开一个对话即可。安装器默认不覆盖已经存在的同名 skill；如果提示目标目录已存在，先确认是否已经安装过。
+
+## 2. 手动安装（备用）
 
 在终端进入这个仓库目录，执行：
 
@@ -20,7 +44,7 @@ cp references/*.md ~/.codex/skills/Ailuren-scriptwriter-3act-15beats/references/
 
 根目录的 `.md` 案例和 `.png` 图片是学习参考，不影响 skill 的基本运行。
 
-## 2. 最简单的调用方式
+## 3. 最简单的调用方式
 
 新开一个 Codex 对话，先调用 skill，再说你的想法：
 
@@ -39,7 +63,7 @@ $Ailuren-scriptwriter-3act-15beats
 每个场景标注内/外景、地点、时间、动作、必要对白和场景转折。
 ```
 
-## 3. 你可以提供哪些信息
+## 4. 你可以提供哪些信息
 
 不需要一次提供全部资料。以下任意一项都可以作为起点：
 
@@ -54,7 +78,7 @@ $Ailuren-scriptwriter-3act-15beats
 
 如果关键信息缺失，skill 会先按最合理方向推进，最后把新增的关键设定列在“创作假设”里。
 
-## 4. 看懂输出
+## 5. 看懂输出
 
 建议按这个顺序检查：
 
@@ -64,7 +88,7 @@ $Ailuren-scriptwriter-3act-15beats
 4. **15 Beats**：中点是否改变规则，一切尽失是否是真正低谷，结尾是否呼应开场。
 5. **场景大纲**：每个场景是否改变目标、关系、信息、风险或决定。
 
-## 5. 不满意时怎样修改
+## 6. 不满意时怎样修改
 
 用“保留什么 + 修改什么 + 重新输出什么”的方式最容易得到稳定结果：
 
@@ -81,7 +105,7 @@ $Ailuren-scriptwriter-3act-15beats
 按“问题 / 原因 / 最小修改建议”输出。
 ```
 
-## 6. 适配 AI 视频和 TVC
+## 7. 适配 AI 视频和 TVC
 
 如果要继续做 AI 视频，补充时长、媒介和画面限制：
 
@@ -99,7 +123,7 @@ $Ailuren-scriptwriter-3act-15beats
 请让产品展示服务于人物行动，不要把 15 Beats 机械写成 15 个镜头。
 ```
 
-## 7. 常见误区
+## 8. 常见误区
 
 - 不要把 15 Beats 当成固定的 15 个场景。
 - 不要只让角色解释主题，要让最终选择证明主题。
